@@ -8,7 +8,7 @@ const AddTransaction = () => {
     <div>
       <h3>Add new transaction</h3>
       <form>
-        <div ClassName='form-control'>
+        <div className='form-control'>
           <label htmlFor='text'>Text</label>
           <input
             type='text'
@@ -17,7 +17,7 @@ const AddTransaction = () => {
             placeholder='Enter text...'
           />
         </div>
-        <div ClassName='Form-control'>
+        <div className='Form-control'>
           <label htmlFor='amount'>
             Amount <br />
             (negative - expense, positive - income)
@@ -29,7 +29,7 @@ const AddTransaction = () => {
             placeholder='Enter amount...'
           />
         </div>
-        <button ClassName='btn'>Add transaction</button>
+        <button className='btn'>Add transaction</button>
       </form>
     </div>
   );
